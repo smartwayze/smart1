@@ -1,0 +1,54 @@
+name: smarttailoring
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons:
+  firebase_core:
+  cloud_firestore:
+  image_picker: ^1.1.2
+  tflite_flutter: ^0.11.0
+  image: ^3.0.1
+  url_launcher: ^6.3.1
+  device_apps: ^2.2.0
+  intl: ^0.20.2
+  shared_preferences: ^2.5.3
+  image_cropper: ^9.1.0
+  permission_handler: ^12.0.0+1
+  firebase_storage: ^12.4.6
+  cached_network_image: ^3.4.1
+
+  firebase_auth:
+
+  camera:
+
+  google_mlkit_object_detection: ^0.15.0
+  google_mlkit_pose_detection: ^0.14.0
+
+  # Utilities
+  path_provider:
+  path:
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/mimages/
+    - assets/models/measurement model.tflite
+    - assets/models/model_quantized.tflite
+
